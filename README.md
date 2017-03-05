@@ -1,1 +1,4 @@
 # python
+ipython
+pycharm
+git
