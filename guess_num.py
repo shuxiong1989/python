@@ -8,8 +8,10 @@ import random
 
 def again():
     char = raw_input("Do you want to continue?Please input yes or no!!!!!")
+    num = random.randint(0, 99)
+    #print(num)
     if char == 'yes':
-        main()
+        play_game(num)
     elif char == 'no':
         print("Good bye!!!!")
         exit()
